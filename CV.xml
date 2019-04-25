@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<root>
+	<profile_summary>Software development professional with 7+ years of experience (XSLT, XSL-FO, XPath, XML, XSD, DTD, HTML and CSS) in publishing industry. Highly skilled in specifications gathering, troubleshooting and understanding customers requirements.</profile_summary>
+	<career_objective>Looking for a challenging and rewarding job opportunity, which exploits inner talent that can provide me a working environment in emerging as a competitive professional to excel in the field, while working with the team.</career_objective>
+	<personal>
+		<name>
+			<givennames>Amrendra</givennames>
+			<middlename>Kumar</middlename>
+			<surname>Gupta</surname>
+		</name>
+		<communication>
+			<contact_number>+91 8588817220</contact_number>
+			<email>amrendra858@gmail.com</email>
+		</communication>
+		<fathersname>Mr. Ramprevesh gupta</fathersname>
+		<DOB>10/06/1991</DOB>
+		<gender>Male</gender>
+		<marital_status>Married</marital_status>
+		<language>English &amp; Hindi</language>
+		<address>
+			<permanent>
+				<addr1>Churamanchak Bhatwaliya, Phulwariya</addr1>
+				<dist>Gopalganj</dist>
+				<state>Bihar</state>
+				<pin>841425</pin>
+			</permanent>
+			<curren>
+				<addr1>Room: 201, HN: 18, Om Sai Niwas</addr1>
+				<addr2>Milind Nagar, Andheri</addr2>
+				<landmark>Near L &amp; T Powai</landmark>
+				<city>Mumbai</city>
+				<pin>400072</pin>
+			</curren>
+		</address>
+	</personal>
+	<technicalskills>
+		<operating_system>Windows XP, Windows 7/8/10</operating_system>
+		<application_software>MS-Office, Epsilon, Oxygen XML Editor &amp; Stylus XML Editor</application_software>
+		<programmingskills>XSLT 2.0, XSL-FO, X-Path, XSD, XML, DTD</programmingskills>
+	</technicalskills>
+	<self_assessment>Hardworking, Co-operative, Confident, Eagerness to learn, Punctuality, Team Working</self_assessment>
+	<educational>
+		<graduation>BCA with 72% from Jai Prakash University, Chapra</graduation>
+		<intermediate>Intermediate with 58% from Bihar School Examination Board, Patna</intermediate>
+		<highschool>High School with 56% from Bihar School Examination Board, Patna</highschool>
+	</educational>
+	<experiance>
+		<organization id="5">
+			<DOJ>May 2018</DOJ>
+			<DOL>till</DOL>
+			<organization_name>PM AM IT SERVICES IND PVT. LTD (Mumbai)</organization_name>
+			<designation>Technology Specialist (XSLT)</designation>
+			<company_profile>PM AM is an MNC which is maintain the form development and script writing for the Argo-Groups insurance company based on US.</company_profile>
+			<Project_details>
+				<project_name>Argo Groups</project_name>
+				<client_name>Argo Insurance</client_name>
+				<tools_using>Colony Rater, Argo API, Stylus and Oxygen</tools_using>
+				<team_size>20</team_size>
+			</Project_details>
+			<project_description>
+				<para>Argo-group is an insurance service provider in US where we use multiple applications to develop forms using XSLT, XSL-FO, XML and SQL.</para>
+				<para>Applications are web based CMS workflow for processing data in electronic form as XML and create the PDF for the customers.</para>
+				<para>It is a batch processing system, in which batch state and other information is maintained in a combination of an Oracle database and a Document content management system instance.</para>
+			</project_description>
+			<responsibility>
+				<res>Microsoft Outlook receives and responds to practitioner queries and emails.</res>
+				<res>Creating the understanding document and requirement documents for standing meeting.</res>
+				<res>Discussing about the requirement and get it approved form the customer side by mail.</res>
+				<res>Arrange a meeting with internal processor or managers and distribute the task accordingly.</res>
+				<res>Design Script Solution</res>
+				<res>Batch-Process and Inspection</res>
+				<res>Delivery</res>
+				<res></res>
+			</responsibility>
+		</organization>
+		<organization id="4">
+			<DOJ>Nov 2017</DOJ>
+			<DOL>April 2018</DOL>
+			<organization_name>DiTech Process Solution</organization_name>
+			<designation>Senior Software Engineer - (XSLT)</designation>
+			<company_profile>Di Tech organization is service provider which provides the full publishing service to publisher for publish theirs books and journals and also providing the financial services to the US companies to maintain theirs companies balance sheets and update it and creating XBRL for submit in sec filing.</company_profile>
+			<Project_details>
+				<project_name>Thieme, Edgar and XBRL</project_name>
+				<client_name>Thieme, Edgar and XBRL</client_name>
+				<tools_using>3CM and Oxygen</tools_using>
+				<team_size>30</team_size>
+			</Project_details>
+			<project_description>
+				<para>Di Tech organization is service provider which provide the full publishing service to publishers to publisher theirs books and journals and also providing the financial services to the US companies to maintain theirs companies balance sheets and update it and creating XBRL for submit in sec filing using XSLT, XML, HTML and SQL.</para>
+				<para>Applications are web based CMS workflow for processing data in electronic form as XML HTML and XBRL for the customers.</para>
+			</project_description>
+			<responsibility>
+				<res>Microsoft Outlook receives and responds to practitioner queries and emails.</res>
+				<res>Creating the understanding document and requirement documents for standing meeting.</res>
+				<res>Discussing about the requirement and get it approved form the customer side by mail with Project managers.</res>
+				<res>Arrange a meeting with internal processor or managers and distribute the task accordingly.</res>
+				<res>Design Script Solution</res>
+				<res>Batch-Process and Inspection</res>
+				<res>Delivery to project managers</res>
+			</responsibility>
+		</organization>
+		<organization id="3">
+			<DOJ>April 2016</DOJ>
+			<DOL>Oct 2017</DOL>
+			<organization_name>Apex Co Vantage (India) Pvt. Ltd</organization_name>
+			<designation>XSLT Developer</designation>
+			<company_profile>APEX is an MNC organization which provides the full archiving service to all top most publishers to archive theirs published books and journals.</company_profile>
+			<Project_details>
+				<project_name>PORTICO</project_name>
+				<client_name>ITHAKA</client_name>
+				<tools_using>Oxygen XML Editor, ConPrep workflow system (JAVA Based)</tools_using>
+				<team_size>10</team_size>
+			</Project_details>
+			<project_description>
+				<para>APEX provide the full archiving services to publisher to archive theirs books and journals using XSLT, XML, DTD, Schema and ConPrep work flow system.</para>
+				<para>A ConPrep application is JAVA based web application which supports Content Management System for processing data in electronic form as XML, HTML.</para>
+			</project_description>
+			<responsibility>
+				<res>Microsoft Outlook receives and responds to practitioner queries and emails.</res>
+				<res>Discussing about the requirement and by mail with manager.</res>
+				<res>Design Script Solution</res>
+				<res>Batch-Process and Inspection</res>
+				<res>Delivery</res>
+			</responsibility>
+		</organization>
+		<organization id="2">
+			<DOJ>March 2014</DOJ>
+			<DOL>March 2016</DOL>
+			<organization_name>Aptara Inc. (Noida)</organization_name>
+			<designation>Programmer</designation>
+			<company_profile>APTARA is service provider which provide the full publishing service to publishers to publisher theirs books and journals.</company_profile>
+			<Project_details>
+				<project_name>Power Ex Editor (PXE)</project_name>
+				<client_name>Wiley Books, Thieme and Elsevier</client_name>
+				<tools_using>Oxygen XML Editor, Power ExEditor, Epsilon</tools_using>
+				<team_size>50</team_size>
+			</Project_details>
+			<project_description>
+				<para>APTARA organization is service provider which provides the full publishing service to publishers to publish theirs books and journals using XSLT, XML, XHTML, CSS and PDF.</para>
+				<para>PXE applications is web based CMS workflow for processing data in electronic form as XML and providing to customer HTML, XHTML, EPub, PDF and XML.</para>
+			</project_description>
+			<responsibility>
+				<res>Gather information from project managers</res>
+				<res>Discussing about the requirement side by mail with Project managers</res>
+				<res>Design Script Solution</res>
+				<res>Delivery to project managers</res>
+			</responsibility>
+		</organization>
+		<organization id="1">
+			<DOJ>January 2012</DOJ>
+			<DOL>March 2014</DOL>
+			<organization_name>Planman Tech. Ind. Pvt. Ltd.</organization_name>
+			<designation>Project Executive</designation>
+			<company_profile>PLANMAN is service provider which provides the full publishing and editorial service to newspaper agencies to publisher news papers.</company_profile>
+			<Project_details>
+				<project_name>Retriever</project_name>
+				<client_name>Swedish News Paper</client_name>
+				<tools_using>Visual Proffer, Power ExEditor, Epsilon, DTD Validator</tools_using>
+				<team_size>50</team_size>
+			</Project_details>
+			<project_description>
+				<para>PLANMAN is service provider which provides the full publishing and editorial service to newspaper agencies to publisher news papers.</para>
+				<para>Visual Proffer is an application which can extract data from PDF to XML format.</para>
+			</project_description>
+			<responsibility>
+				<res>Took file from location assign by Team Leader</res>
+				<res>Extract data from PDF to XML using VP</res>
+				<res>Complete assign task on time track</res>
+				<res>Delivery to project location</res>
+			</responsibility>
+		</organization>
+	</experiance>
+</root>
