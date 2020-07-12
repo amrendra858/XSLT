@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fo="http://www.w3.org/1999/XSL/Format" exclude-result-prefixes="xs fo" version="2.0">
 
-	<xsl:variable name="image" select="'C:\Working\ARGO CONSTRUCTION\18-04-2019\Argo_Con.jpg'"/>
+	<xsl:variable name="image" select="'C:\Users\Amrendra\Desktop\LIC\My_Photo _crop_1.jpeg'"/>
 
 	<xsl:template match="/">
 		<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -85,7 +85,7 @@
 							</fo:block>
 							<fo:block start-indent="6pt" font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="6pt" text-align="justify">
 								<fo:inline font-size="10pt">
-									<xsl:value-of select="/root/profile_summary"/>
+									<xsl:value-of select="replace(/root/profile_summary, '\[years\]',concat(string((year-from-date(xs:date(current-dateTime())) - 2012)), ' + '))"/>
 								</fo:inline>
 							</fo:block>
 						</xsl:if>
@@ -108,15 +108,17 @@
 						</fo:block>
 
 						<xsl:for-each select="/root/experiance/organization">
-						<xsl:sort select="@id" order="descending"/>
-							<fo:table start-indent="-3.6pt">
+							<xsl:sort select="@id" order="descending"/>
+							<fo:table keep-together.within-page="always" start-indent="-3.6pt">
 								<fo:table-column column-number="1" column-width="144pt"/>
 								<fo:table-column column-number="2" column-width="306pt"/>
 								<fo:table-body start-indent="0pt" end-indent="0pt">
 									<fo:table-row padding-top="0pt" padding-bottom="0pt">
 										<fo:table-cell>
-										<fo:block><fo:leader/></fo:block>
-											<fo:block font-family="TimesNewRoman" font-size="12pt" language="EN-US" space-after="6pt" font-weight="bold">
+											<fo:block>
+												<fo:leader/>
+											</fo:block>
+											<fo:block font-family="TimesNewRoman" font-size="12pt" language="EN-US" space-after="6pt" font-weight="bold" end-indent="-50pt">
 												<fo:inline font-weight="bold">
 													<xsl:value-of select="concat(DOJ, ' to ' ,DOL)"/>
 												</fo:inline>
@@ -169,7 +171,7 @@
 										<fo:table-cell number-columns-spanned="2">
 											<fo:block></fo:block>
 											<fo:block font-family="TimesNewRoman" font-size="10pt" space-before="6pt" language="EN-US" start-indent="9pt" text-align="justify">
-												<fo:inline font-size="12pt">
+												<fo:inline font-size="10pt">
 													<xsl:value-of select="company_profile"/>
 												</fo:inline>
 											</fo:block>
@@ -295,6 +297,8 @@
 											</xsl:for-each>
 										</fo:table-cell>
 									</fo:table-row>
+
+
 									<fo:table-row padding-top="0pt" padding-bottom="0pt">
 										<fo:table-cell number-columns-spanned="2">
 											<fo:block></fo:block>
@@ -330,32 +334,41 @@
 								</fo:table-body>
 							</fo:table>
 						</xsl:for-each>
-					
+
+
+						<fo:block start-indent="-3.6pt" font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="6pt">
+							<fo:inline>
+								<fo:leader/>
+							</fo:inline>
+						</fo:block>
+
+
 						<fo:block start-indent="-3.6pt" font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="6pt">
 							<fo:inline font-size="12pt" font-weight="bold">Educational Qualification</fo:inline>
 						</fo:block>
-						
+
 						<fo:block start-indent="-3.6pt" font-family="TimesNewRoman" language="EN-US" space-before="6pt">
-						<xsl:for-each select="root/educational/*">
-							<xsl:if test="normalize-space(.)">
-								<fo:list-block>
-									<fo:list-item font-family="TimesNewRoman" font-size="10pt" language="" space-after="1pt" line-height="1.3190500000000003" start-indent="45pt" end-indent="-10pt">
-										<fo:list-item-label font-size="10pt" start-indent="5pt" text-indent="0pt">
-											<fo:block>
-												<fo:inline font-family="Arial">●</fo:inline>
-											</fo:block>
-										</fo:list-item-label>
-										<fo:list-item-body end-indent="inherit" start-indent="20pt" text-indent="0pt">
-											<fo:block>
-												<fo:inline font-family="TimesNewRoman">
-													<xsl:value-of select="."/>
-												</fo:inline>
-											</fo:block>
-										</fo:list-item-body>
-									</fo:list-item>
-								</fo:list-block>
-							</xsl:if>
-						</xsl:for-each><fo:inline/>
+							<xsl:for-each select="root/educational/*">
+								<xsl:if test="normalize-space(.)">
+									<fo:list-block>
+										<fo:list-item font-family="TimesNewRoman" font-size="10pt" language="" space-after="1pt" line-height="1.3190500000000003" start-indent="45pt" end-indent="-10pt">
+											<fo:list-item-label font-size="10pt" start-indent="5pt" text-indent="0pt">
+												<fo:block>
+													<fo:inline font-family="Arial">●</fo:inline>
+												</fo:block>
+											</fo:list-item-label>
+											<fo:list-item-body end-indent="inherit" start-indent="20pt" text-indent="0pt">
+												<fo:block>
+													<fo:inline font-family="TimesNewRoman">
+														<xsl:value-of select="."/>
+													</fo:inline>
+												</fo:block>
+											</fo:list-item-body>
+										</fo:list-item>
+									</fo:list-block>
+								</xsl:if>
+							</xsl:for-each>
+							<fo:inline/>
 						</fo:block>
 
 
@@ -429,9 +442,11 @@
 						</fo:block>
 
 						<fo:block start-indent="5pt" text-align="justify" font-family="TimesNewRoman" language="EN-US" space-after="6pt">
-							<fo:inline font-size="10pt"><xsl:value-of select="root/self_assessment"/></fo:inline>
+							<fo:inline font-size="10pt">
+								<xsl:value-of select="root/self_assessment"/>
+							</fo:inline>
 						</fo:block>
-					
+
 						<fo:block start-indent="-3.6pt" font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="6pt" space-after="6pt">
 							<fo:inline font-size="12pt" font-weight="bold">Personal Details:</fo:inline>
 						</fo:block>
@@ -539,7 +554,58 @@
 							</fo:table-body>
 						</fo:table>
 
-					<fo:block><fo:leader leader-height="25pt"/></fo:block>
+						<fo:block start-indent="-3.6pt" font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="6pt" space-after="6pt">
+							<fo:inline font-size="12pt" font-weight="bold">External Links:</fo:inline>
+						</fo:block>
+						<fo:table start-indent="65pt">
+							<fo:table-column column-number="1" column-width="100pt"/>
+							<fo:table-column column-number="2" column-width="150pt"/>
+							<fo:table-body start-indent="0pt" end-indent="0pt">
+								<fo:table-row padding-top="0pt" padding-bottom="0pt">
+									<fo:table-cell>
+										<fo:block font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="4pt" text-align="left">
+											<fo:inline font-size="10pt">LinkedIn</fo:inline>
+										</fo:block>
+									</fo:table-cell>
+									<fo:table-cell>
+										<fo:block font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="4pt" text-align="center">
+											<fo:basic-link external-destination='url("https://www.linkedin.com/in/amrendra-gupta-9b834253/")'>
+												<fo:inline color="blue" font-size="10pt">Amrendra Kumar Gupta</fo:inline>
+											</fo:basic-link>
+										</fo:block>
+									</fo:table-cell>
+								</fo:table-row>
+								<fo:table-row padding-top="0pt" padding-bottom="0pt">
+									<fo:table-cell>
+										<fo:block font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="4pt" text-align="left">
+											<fo:inline font-size="10pt">GitHub</fo:inline>
+										</fo:block>
+									</fo:table-cell>
+									<fo:table-cell>
+										<fo:block font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="4pt" text-align="center">
+											<fo:basic-link external-destination='url("https://github.com/amrendra858")'>
+												<fo:inline color="blue" font-size="10pt">Amrendra Kumar Gupta</fo:inline>
+											</fo:basic-link>
+										</fo:block>
+									</fo:table-cell>
+								</fo:table-row>
+								<fo:table-row padding-top="0pt" padding-bottom="0pt">
+									<fo:table-cell>
+										<fo:block font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="4pt" text-align="left">
+											<fo:inline font-size="10pt">Stack Overflow</fo:inline>
+										</fo:block>
+									</fo:table-cell>
+									<fo:table-cell>
+										<fo:block font-family="TimesNewRoman" font-size="10pt" language="EN-US" space-before="4pt" text-align="center">
+											<fo:basic-link external-destination='url("https://stackoverflow.com/users/8903393/amrendra-kumar")'>
+												<fo:inline color="blue" font-size="10pt">Amrendra Kumar Gupta</fo:inline>
+											</fo:basic-link>
+										</fo:block>
+									</fo:table-cell>
+								</fo:table-row>
+							</fo:table-body>
+						</fo:table>
+
 						<fo:table space-before="30pt">
 							<fo:table-column column-number="1" column-width="180pt"/>
 							<fo:table-column column-number="2" column-width="300pt"/>

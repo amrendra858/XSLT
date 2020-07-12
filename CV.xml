@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <root>
-	<profile_summary>Software development professional with 7+ years of experience (XSLT, XSL-FO, XPath, XML, XSD, DTD, HTML and CSS) in publishing industry. Highly skilled in specifications gathering, troubleshooting and understanding customers requirements.</profile_summary>
-	<career_objective>Looking for a challenging and rewarding job opportunity, which exploits inner talent that can provide me a working environment in emerging as a competitive professional to excel in the field, while working with the team.</career_objective>
+	<profile_summary>Software development professional with [years] years of experience in digital transformation from XML background to electronic media like E-PDF, Web, e-Book, E-Journals and Insurance domain with rich knowledge of (XSLT, XSL-FO, XPath, XML, XSD, DTD, HTML and CSS). <br/>Highly skilled in analyzing requirements and information gathering, troubleshooting and understanding customers requirements.</profile_summary>
+	<career_objective>Looking for a challenging and rewarding job opportunity, where can get chance to explore new things to innovate and accelerate knowledge and professional career.</career_objective>
 	<personal>
 		<name>
 			<givennames>Amrendra</givennames>
@@ -25,7 +25,7 @@
 				<pin>841425</pin>
 			</permanent>
 			<curren>
-				<addr1>Room: 201, HN: 18, Om Sai Niwas</addr1>
+				<addr1>Room: 305, HN: 18, Om Sai Niwas</addr1>
 				<addr2>Milind Nagar, Andheri</addr2>
 				<landmark>Near L &amp; T Powai</landmark>
 				<city>Mumbai</city>
@@ -49,31 +49,31 @@
 			<DOJ>May 2018</DOJ>
 			<DOL>till</DOL>
 			<organization_name>PM AM IT SERVICES IND PVT. LTD (Mumbai)</organization_name>
-			<designation>Technology Specialist (XSLT)</designation>
-			<company_profile>PM AM is an MNC which is maintain the form development and script writing for the Argo-Groups insurance company based on US.</company_profile>
+			<designation>Technology Specialist (XSLT, XSL-FO, XML)</designation>
+			<company_profile>PM AM is an MNC where we support the ARGO Insurance organization (USA) to build the structure of insurance forms (Quotation, Binding, Issuing and Endorsement) and related important documents.</company_profile>
 			<Project_details>
 				<project_name>Argo Groups</project_name>
 				<client_name>Argo Insurance</client_name>
-				<tools_using>Colony Rater, Argo API, Stylus and Oxygen</tools_using>
+				<tools_using>Argo API, SoapUI, Stylus and Oxygen</tools_using>
 				<team_size>20</team_size>
 			</Project_details>
 			<project_description>
-				<para>Argo-group is an insurance service provider in US where we use multiple applications to develop forms using XSLT, XSL-FO, XML and SQL.</para>
-				<para>Applications are web based CMS workflow for processing data in electronic form as XML and create the PDF for the customers.</para>
-				<para>It is a batch processing system, in which batch state and other information is maintained in a combination of an Oracle database and a Document content management system instance.</para>
+				<para>Argo-group is an insurance service provider in US where we use multiple applications to develop forms using XSLT, XSL-FO, XML and PL/SQL.</para>
+				<para>Applications are web based CMS work-flow for processing data in electronic form as XML and create the PDF documents for the customers.</para>
+				<para>It is a batch processing system, in which batch state and other information is maintained in a combination of an Oracle database and a Content Management System instance.</para>
 			</project_description>
 			<responsibility>
 				<res>Microsoft Outlook receives and responds to practitioner queries and emails.</res>
-				<res>Creating the understanding document and requirement documents for standing meeting.</res>
-				<res>Discussing about the requirement and get it approved form the customer side by mail.</res>
-				<res>Arrange a meeting with internal processor or managers and distribute the task accordingly.</res>
-				<res>Design Script Solution</res>
-				<res>Batch-Process and Inspection</res>
-				<res>Delivery</res>
+				<res>Creating the understanding documents and Request for Information (RFI) documents.</res>
+				<res>Discussing about the requirement and get it approved form the customer side by mail or documents itself.</res>
+				<res>Discussing with internal manager for the process and distribute the task to team accordingly.</res>
+				<res>Design Script Solution.</res>
+				<res>Deployment on DEV Environment for unit test.</res>
+				<res>Delivery for UAT testing.</res>
 				<res></res>
 			</responsibility>
 		</organization>
-		<organization id="4">
+		<!--<organization id="4">
 			<DOJ>Nov 2017</DOJ>
 			<DOL>April 2018</DOL>
 			<organization_name>DiTech Process Solution</organization_name>
@@ -98,7 +98,7 @@
 				<res>Batch-Process and Inspection</res>
 				<res>Delivery to project managers</res>
 			</responsibility>
-		</organization>
+		</organization>-->
 		<organization id="3">
 			<DOJ>April 2016</DOJ>
 			<DOL>Oct 2017</DOL>
@@ -108,7 +108,7 @@
 			<Project_details>
 				<project_name>PORTICO</project_name>
 				<client_name>ITHAKA</client_name>
-				<tools_using>Oxygen XML Editor, ConPrep workflow system (JAVA Based)</tools_using>
+				<tools_using>Oxygen XML Editor, ConPrep work-flow system (JAVA Based)</tools_using>
 				<team_size>10</team_size>
 			</Project_details>
 			<project_description>
